@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  border: none;
+}
+ /* /normalize */
+
+ /* body */
+header {
+  width: 80%;  
+  margin: 0 auto;  
+  font-size: 2.1em;
+  text-align: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;  
+}
+
+header ul li {
+  width: 35%;
+}
+
+header ul li > a {
+  color: cornflowerblue
+}
+header ul li > a:hover {
+  color: coral
+}
+
+main {
+  width: 80%;
+  height: 50vh;
+
+  margin: 50px auto;
+  padding-top: 350px;  
+
+  text-align: center;
+}
+/* /body */
